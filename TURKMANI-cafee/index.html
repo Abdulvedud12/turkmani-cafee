@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURKMANI CAFE | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6 1v3M10 1v3M14 1v3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="steam" d="M4 8s1-2 3-2 3 2 3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5">
+                            <animate attributeName="d" values="M4 8s1-2 3-2 3 2 3 2;M4 8s1-1 3-3 3 1 3 3;M4 8s1-2 3-2 3 2 3 2" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.5;0.2;0.5" dur="3s" repeatCount="indefinite"/>
+                        </path>
+                    </svg>
+                </div>
+                <h1>TURKMANI CAFE</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('stor-img/stor2.jpg')"></div>
+            <div class="slide" style="background-image: url('stor-img/stor3.jpg')"></div>
+            <div class="slide" style="background-image: url('stor-img/485a16abddd3e1f3c471ae59fd020357.jpg')"></div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="coffee-cup">
+            <div class="cup">
+                <div class="top">
+                    <div class="vapour">
+                        <span style="--i:1;"></span>
+                        <span style="--i:3;"></span>
+                        <span style="--i:16;"></span>
+                        <span style="--i:5;"></span>
+                        <span style="--i:13;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:6;"></span>
+                        <span style="--i:7;"></span>
+                        <span style="--i:10;"></span>
+                        <span style="--i:8;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:12;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:9;"></span>
+                        <span style="--i:15;"></span>
+                        <span style="--i:4;"></span>
+                        <span style="--i:19;"></span>
+                    </div>
+                    <div class="circle">
+                        <div class="coffee"></div>
+                    </div>
+                </div>
+                <div class="handle"></div>
+            </div>
+            <div class="plate"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to TURKMANI CAFE</h1>
+            <p>Experience the perfect blend of taste and ambiance</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-slider-container">
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            
+            <div class="menu-slider">
+                <div class="menu-slide">
+                    <div class="menu-item">
+                        <img src="product-img/espresso.jpg" alt="Espresso">
+                        <h4>Espresso</h4>
+                        <p>Rich and bold Italian espresso</p>
+                        <span class="price">$3.50</span>
+                    </div>
+                </div>
+                <div class="menu-slide">
+                    <div class="menu-item">
+                        <img src="product-img/Café Latte.jpg" alt="Latte">
+                        <h4>Cafe Latte</h4>
+                        <p>Smooth espresso with steamed milk</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+                <div class="menu-slide">
+                    <div class="menu-item">
+                        <img src="product-img/Butter Croissant.jpg" alt="Croissant">
+                        <h4>Butter Croissant</h4>
+                        <p>Freshly baked flaky croissant</p>
+                        <span class="price">$3.00</span>
+                    </div>
+                </div>
+                <div class="menu-slide">
+                    <div class="menu-item">
+                        <img src="product-img/Blueberry Muffin.jpg" alt="Muffin">
+                        <h4>Blueberry Muffin</h4>
+                        <p>Moist muffin packed with blueberries</p>
+                        <span class="price">$3.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At TURKMANI CAFE, we believe in serving more than just coffee – we create experiences. Our story began in 2010 with a simple passion for quality coffee and exceptional service.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Quality Coffee</h3>
+                    <p>Sourced from premium beans</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-bread-slice"></i>
+                    <h3>Fresh Pastries</h3>
+                    <p>Baked daily in-house</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Friendly Service</h3>
+                    <p>Expert baristas at your service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Street, City, Country</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> info@cafedelight.com</p>
+                <div class="hours">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 7:00 AM - 8:00 PM</p>
+                    <p>Saturday - Sunday: 8:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TURKMANI CAFE</h3>
+                <p>Your perfect coffee destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Abdulvedud12"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/AbdulvedudTurk"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TURKMANI CAFE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Theme Switch Button -->
+    <div class="theme-switch" id="theme-switch">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
